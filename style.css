@@ -7,3 +7,68 @@
 body{
   background-color: black;
 }
+
+nav{
+  height: 3em;
+  padding-bottom: 0.3em;
+}
+
+nav img{
+  display: inline;
+  height: 3em;
+}
+
+nav div{
+  padding-left: 2em;
+  display: inline-flex;
+  height: 3em;
+  position: relative;
+  bottom: 3px;
+}
+
+nav div img{
+  display: inline-block;
+  height: 60%;
+  margin: 0 0.7em;
+}
+
+nav span{
+  display: inline-block;
+}
+
+#nav-text-wrapper p{
+  display: inline;
+}
+
+#nav-text-wrapper li{
+  position: absolute;
+  right: 1.5em;
+  top: 1.2em;
+  float: right;
+  list-style-type: none;
+}
+
+#nav-text-wrapper li ul{
+  display: inline;
+
+  cursor: pointer;
+
+  font-size: 100%;
+
+  background-color: #FCA469;
+
+  margin: 0em 1em;
+  padding: 0.5em 0.7em;
+}
+
+#nav-text-wrapper li ul:hover{
+  background-color: gray;
+}
+
+header{
+  height: 500px;
+  background: url("./images/header-image.jpg");
+  background-position: 50% 45%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

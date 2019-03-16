@@ -18,23 +18,26 @@
         <img src="./images/instagram" alt="instagram logo">
       </div>
 
-      <p>OFFICE: 509.545.0242</p>
+      <span id="nav-text-wrapper">
+        <p>OFFICE:509.545.0242</p>
 
-      <li id='navigation-buttons'>
-        <ul class='nav-button'>Home</ul>
-        <ul class='nav-button'>Services</ul>
-        <ul class='nav-button'>About</ul>
-        <ul class='nav-button'>Contact</ul>
-      </li>
+        <li id='navigation-buttons'>
+          <ul class='nav-button'>Home</ul>
+          <ul class='nav-button'>Services</ul>
+          <ul class='nav-button'>About</ul>
+          <ul class='nav-button'>Contact</ul>
+        </li>
+      </span>
 
     </nav>
     <!-- Navigation -->
 
     <!-- Background Image and Super Logo -->
     <header>
+      <!--
       <img src='' alt="Header image of a construction truck sitting dormant
       during a sunset while workers talk amongst themselves">
-
+    -->
       <img src='' alt='giant logo of QualityBackhoeServices'>
     </header>
     <!-- Background Image and Super Logo -->
