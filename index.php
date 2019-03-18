@@ -38,7 +38,9 @@
       <img src='' alt="Header image of a construction truck sitting dormant
       during a sunset while workers talk amongst themselves">
     -->
-      <img src='' alt='giant logo of QualityBackhoeServices'>
+      <div id='logo-wrapper'>
+        <img src='./images/logo' alt='giant logo of QualityBackhoeServices'>
+      </div>
     </header>
     <!-- Background Image and Super Logo -->
 
