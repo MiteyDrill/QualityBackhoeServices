@@ -11,15 +11,16 @@
     <!-- Navigation -->
     <nav id='nav-bar'>
 
-      <img src="./images/logo" alt="small logo"/>
-      <div class="social-media-icons">
-        <img src="./images/facebook" alt="facebook logo">
-        <img src="./images/twitter" alt="twitter logo">
-        <img src="./images/instagram" alt="instagram logo">
+      <img src="./images/logo.png" alt="small logo"/>
+      <div id="social-media-icons">
+        <img src="./images/facebook.png" alt="facebook logo">
+        <img src="./images/twitter.png" alt="twitter logo">
+        <img src="./images/instagram.png" alt="instagram logo">
       </div>
 
-      <span id="nav-text-wrapper">
-        <p>OFFICE:509.545.0242</p>
+      <div id="nav-text-wrapper">
+        <p>OFFICE: 509.545.0242</p>
+      </div>
 
         <li id='navigation-buttons'>
           <ul class='nav-button'>Home</ul>
@@ -27,7 +28,6 @@
           <ul class='nav-button'>About</ul>
           <ul class='nav-button'>Contact</ul>
         </li>
-      </span>
 
     </nav>
     <!-- Navigation -->
@@ -39,31 +39,30 @@
       during a sunset while workers talk amongst themselves">
     -->
       <div id='logo-wrapper'>
-        <img src='./images/logo' alt='giant logo of QualityBackhoeServices'>
+        <img src='./images/logo.png' alt='giant logo of QualityBackhoeServices'>
       </div>
     </header>
     <!-- Background Image and Super Logo -->
 
-    <!-- Welcome Wrapper [outside flow] -->
-    <div id='welcome-div' class='floating-box'>
-      <h1>PROVIDING QUALITY CRAFTSMANSHIP</h1>
-      <p>General contractor since 2001 serving the Tri-Cities area with all phases of excavation!</p>
-    </div>
-    <!-- Welcome Wrapper [outside flow] -->
-
     <!-- Welcome div -->
     <section>
-      <img src='' alt='background-image of welder'/>
-      <img src='' alt='workers measuring tubing'/>
-      <div>
+      <!-- Welcome Wrapper [outside flow] -->
+      <div id='welcome-div' class='floating-box'>
+        <h1>PROVIDING QUALITY CRAFTSMANSHIP</h1>
+        <p>General contractor since 2001 serving the Tri-Cities area with all phases of excavation!</p>
+      </div>
+      <!-- Welcome Wrapper [outside flow] -->
+      <div id="workers-img-wrapper">
+        <img src='./images/workers.jpg' alt="workers"/>
+      </div>
+
+      <div id="call-info-wrapper">
         <h3>Call for a FREE estimate!</h3>
         <br/>
-
-        <img src='' alt='telephone icon'/>
+        <img src='./images/smartphone-icon.png' alt='telephone icon'/>
         <p>OFFICE: 509.545.0242</p>
-
         <br/>
-        <img src='' alt='cellphone icon'/>
+        <img src='./images/oldphone-icon.png' alt='cellphone icon'/>
         <p>MOBILE: 509.727.5112</p>
       </div>
     </section>
