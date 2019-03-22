@@ -290,6 +290,8 @@ section{
   flex-direction: column;
   justify-content: space-around;
 
+  margin-left: 10%;
+
 
   text-align: center;
 
@@ -375,4 +377,80 @@ section{
 
 #details-right p:nth-child(2){
   margin-bottom: 3em;
+}
+
+#jobs-section{
+  margin-top: 8em;
+  height: 900px;
+  width: 100%;
+
+  background: linear-gradient(
+    rgba(0,0,0,0.25),
+    rgba(0,0,0,0.25)
+    ),
+   url("./images/bridge.jpg");
+
+  background-size: 100%;
+  background-position: 30% 40%;
+
+}
+
+#jobs-section div:nth(-n+1){
+  height: 50%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+#jobs-section #img-row-1-wrapper{
+  height: 30%;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+#img-row-1-wrapper img{
+  margin-top: 6em;
+  height: 70%;
+  width: 200px;
+}
+
+#jobs-section #img-row-2-wrapper{
+  height: 30%;
+  padding 0;
+
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+#img-row-2-wrapper img{
+  margin-top: 6em;
+  height: 70%;
+  width: 200px;
+}
+
+#profile-img-wrapper{
+  display: inline-block;
+}
+
+#jobs-section div:nth-child(2){
+  display: flex;
+  align-items: center;
+}
+
+#business-card-wrapper{
+  display: flex;
+  align-self: center;
+  height: 245px;
+  width: 50%;
+
+  border: 1px white solid;
+
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
 }

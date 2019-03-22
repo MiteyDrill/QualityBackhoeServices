@@ -5,7 +5,7 @@
     <title>Quality-Backhoe-Services</title>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link type='text/css' rel='stylesheet' href="/style.css">
+    <link type='text/css' rel='stylesheet' href="./style.css">
   </head>
 
   <body>
@@ -126,6 +126,39 @@
     </section>
 
     <!-- Details Section -->
+
+    <!-- Past Job's section -->
+    <section id='jobs-section'>
+      <div id='img-row-1-wrapper' class='img-row row1'>
+        <img src='./images/job1'/>
+        <img src='./images/job2'/>
+        <img src='./images/job3'/>
+      </div>
+
+      <div id='img-row-2-wrapper' class='img-row row2'>
+        <img src='./images/job4'/>
+        <img src='./images/job5'/>
+        <img src='./images/job6'/>
+      </div>
+
+      <div id='business-card-wrapper'>
+        <div id='profile-image-wrapper'>
+          <img src='' alt='image of luis sanchez'/>
+          <h2>Luis Sanchez</h2>
+          <p>CEO & Founder</p>
+          <p>Entrepreneur</p>
+          <p>Excavator</p>
+          <p>Evangelist</p>
+
+          <p>"When you have a project that needs to be done,
+   look no further than Quality Backhoe Services"</p>
+        </div>
+
+
+      </div>
+
+    </section>
+    <!-- Past Job's section -->
 
 
   </body>
