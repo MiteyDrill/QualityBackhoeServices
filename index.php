@@ -143,14 +143,14 @@
 
       <div id='business-card-wrapper'>
         <div id='profile-image-wrapper'>
-          <img src='' alt='image of luis sanchez'/>
-          <h2>Luis Sanchez</h2>
-          <p>CEO & Founder</p>
-          <p>Entrepreneur</p>
-          <p>Excavator</p>
-          <p>Evangelist</p>
+          <img class='black' src='./images/luis_sanchez.jpg' alt='image of luis sanchez'/>
+          <h2 class='black'>Luis Sanchez</h2>
+          <p class='black'>CEO & Founder</p>
+          <p class='black'>Entrepreneur</p>
+          <p class='black'>Excavator</p>
+          <p class='black'>Evangelist</p>
 
-          <p>"When you have a project that needs to be done,
+          <p class='black'>"When you have a project that needs to be done,
    look no further than Quality Backhoe Services"</p>
         </div>
 

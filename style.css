@@ -380,6 +380,7 @@ section{
 }
 
 #jobs-section{
+  position: relative;
   margin-top: 8em;
   height: 900px;
   width: 100%;
@@ -442,15 +443,55 @@ section{
 }
 
 #business-card-wrapper{
-  display: flex;
+  display: inline-block;
   align-self: center;
-  height: 245px;
-  width: 50%;
+  height: 260px;
+  width: 40em;
 
-  border: 1px white solid;
+  background-color: white;
 
-  top:0;
-  left:0;
+  position: absolute;
+
+  top:68%;
+  left:50%;
+
+  transform: translate(-50%, 0);
+}
+
+#profile-image-wrapper img{
+  background-color: white;
+  border-radius: 100%;
+
+  position: absolute;
+  top: -1.5em;
+  left: 2em;
+
+  height: 95%;
+
+  border-color: red;
+
+  box-shadow: 5px 10px 10px black;
+}
+
+#profile-image-wrapper h2{
+  margin-top: 4%;
+  margin-left: 65%;
+}
+
+#profile-image-wrapper p{
+  margin-top: 0.2em;
+  margin-left: 63%;
+}
+
+#profile-image-wrapper p:nth-child(7){
+  font-size: 90%;
+  margin-left: 40%;
+  margin-bottom: 2%;
+  position: absolute;
   bottom:0;
-  right:0;
+  left:0;
+}
+
+.black{
+  color: black;
 }
